@@ -26,6 +26,7 @@ async def comment_on_post(client, message):
                 reply_to_message_id=linked_message.id  # Reply to the discussion thread
             )
             print("Comment posted in discussion thread!")
+
     except Exception as e:
         print(f"Error: {e}")
 
